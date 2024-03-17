@@ -137,8 +137,8 @@ footer p {
 
 @media only screen and (max-width: 600px) {
     nav ul {
-        flex-direction: column; /* Asetetaan pystysuuntainen suunta mobiilinäytöille */
-        align-items: flex-start; /* Alustetaan elementit vasemmalle mobiilinäytöille */
+        flex-direction: row; /* Asetetaan vaakasuuntainen suunta mobiilinäytöille */
+        justify-content: space-around; /* Tasataan elementit vaakasuunnassa mobiililaitteille */
     }
 
     nav ul li {
