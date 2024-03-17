@@ -135,6 +135,18 @@ footer p {
     margin: 0px; /*tyhjä tila footerin alapuolelta pois*/
 }
 
+@media only screen and (max-width: 600px) {
+    nav ul {
+        flex-direction: column; /* Asetetaan pystysuuntainen suunta mobiilinäytöille */
+        align-items: flex-start; /* Alustetaan elementit vasemmalle mobiilinäytöille */
+    }
+
+    nav ul li {
+        margin-left: 0; /* Nollataan marginaali mobiililaitteille */
+        margin-top: 10px; /* Lisätään ylämarginaali mobiililaitteille */
+    }
+}
+
 /*Tabletti*/
 @media only screen and (min-width: 650px) {
     section {
